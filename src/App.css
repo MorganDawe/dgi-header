@@ -1,22 +1,98 @@
-.App {
+.dgi {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.dgi-logo {
+  max-height: 40vmin;
 }
 
-.App-header {
+.dgi-header.fixed {
+  position: fixed;
+  max-height: 100%; 
+  height: auto;
+  top: 0;
+}
+
+.dgi-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: inline-block;
+  width: 100%;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
+.dgi-link {
   color: #09d3ac;
+}
+
+.grid-item {
+  display: inline-block;
+  width: 33%;
+  vertical-align: middle;
+}
+
+.grid-item-center {
+  text-align: center;
+}
+
+.grid-item-center ul.menu { 
+  padding: 0px;
+  margin: 0px;
+}
+
+.grid-item-center ul.menu li {
+  display: inline-block;
+  padding: 15px 8px;
+  list-style-type: none;
+  list-style-image: none;
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+.grid-item-center ul.menu li a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.grid-item a {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: medium;
+  color: white; 
+  line-height: 24px;
+}
+
+.grid-item .user-header.logo span {
+  font-size: 14px;
+}
+
+.grid-item-right {
+  text-align: right;
+}
+
+.user-header .site-logo {
+  margin-left: 15px;
+}
+.dgi-upload {
+  padding: 11px 20px;
+  background-color: orange;
+  border-radius: 32px;
+}
+
+.dgi-upload,
+.user-header {
+  margin-right: 15px;
+}
+
+.user-header, .user-header img, .user-header a {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+.dgi-upload,
+.user-header {
+  display: inline-block;
+  vertical-align: middle;
 }
